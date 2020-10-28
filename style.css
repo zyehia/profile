@@ -1,0 +1,79 @@
+:root {
+  --purple: #6B72E1;
+  --darker-purple: #4f57db;
+  --green: #7ECE90;
+  --grey: #575F7D;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--grey);
+  font-size: 18px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.shadow {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  padding:30px;
+  margin: 20px auto;
+}
+
+.btn {
+  padding: 15px;
+  border-radius: 5px;
+  border: none; 
+  font-weight: bold;
+}
+
+.btn-purple {
+  background-color: var(--purple);
+  color:white;
+}
+
+.btn-purple:hover {
+  background-color: var(--darker-purple);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+  text-align: center;
+}
+
+#headshot {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+} 
+
+.social {
+  margin: 0 10px;
+}
+
+h1, h2, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, i:hover {
+  color: black;
+}
+
+.purple {
+  color: var(--purple)
+}
+
+.green {
+  color: var(--green);
+}
